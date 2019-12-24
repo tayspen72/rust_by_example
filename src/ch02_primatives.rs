@@ -139,7 +139,7 @@ fn section_2_3(){
   // println!("{}", xs[5]);
 }
 
-fn main() {
+pub fn primatives() {
   /*
     Scalar Types
       signed integers: i8, i16, i32, i64, i128 and isize (pointer size)

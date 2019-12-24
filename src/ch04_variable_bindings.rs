@@ -68,7 +68,7 @@ fn declare_first(){
     println!("another binding: {}", another_binding);
 }
 
-fn main() {
+pub fn variable_bindings() {
     let an_integer = 1u32;
     let a_boolean = true;
     let unit = ();

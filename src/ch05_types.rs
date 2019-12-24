@@ -114,7 +114,7 @@ fn aliasing(){
         nanoseconds + inches);
 }
 
-fn main() {
+pub fn types() {
     casting();
 
     literals();

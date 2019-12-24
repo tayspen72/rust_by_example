@@ -431,7 +431,7 @@ fn the_while_let(){
     println!("");
 }
 
-fn main() {
+pub fn flow_control() {
     the_if_else();
 
     the_loop();

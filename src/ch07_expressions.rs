@@ -1,4 +1,4 @@
-fn main() {
+pub fn expressions() {
     //rust is typically a series of statements
     //statement
     //statement

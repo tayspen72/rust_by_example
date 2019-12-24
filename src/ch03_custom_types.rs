@@ -217,7 +217,7 @@ fn constants() {
 }
 
 
-fn main() {
+pub fn custom_types() {
     println!("Section 3: Custom Types");
 
     structures();

@@ -88,7 +88,7 @@ fn to_and_from_strings(){
     println!("{}", circle);
 }
 
-fn main() {
+pub fn conversion() {
     // type traits allow for a simple method of converting between types
 
     from();

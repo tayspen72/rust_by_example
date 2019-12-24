@@ -191,7 +191,7 @@ fn section_1_2_3(){
     }
 }
 
-fn main() {
+pub fn hello_world() {
     section_1_1();
 
     section_1_2_2();
