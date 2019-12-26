@@ -6,6 +6,7 @@ mod ch05_types;
 mod ch06_conversion;
 mod ch07_expressions;
 mod ch08_flow_control;
+mod ch09_functions;
 
 use std::io;
 
@@ -19,6 +20,7 @@ fn print_summary(){
     println!("\tChapter 6: Conversion");
     println!("\tChapter 7: Expressions");
     println!("\tChapter 8: Flow Control");
+    println!("\tChapter 9: Functions");
     println!("");
 }
 
@@ -42,6 +44,7 @@ fn main(){
         "6" => ch06_conversion::conversion(),
         "7" => ch07_expressions::expressions(),
         "8" => ch08_flow_control::flow_control(),
+        "9" => ch09_functions::functions(),
         _ => println!("Invalid response {}. Quitting...", input)
     }
 }
